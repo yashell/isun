@@ -1,0 +1,25 @@
+@import '@/assets/font/iconfont.scss';
+
+$bg-color: #0D1924;
+$base-color: #f0d6a5;
+$base-color-light: #6b7d8e;
+$base-color-bright: #f2e1cb;
+$black-color: #0d1924;
+html,body {
+  margin: 0;
+  padding: 0;
+  overflow-x: auto;
+}
+body{
+  min-width: 900px;
+  background: $bg-color;
+  font-size: 0.16rem;
+  font-family: Microsoft YaHei;
+  background: #ccc;
+}
+ul,li{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+}
