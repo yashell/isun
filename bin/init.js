@@ -14,7 +14,7 @@ function mkdirsSync(dirname) {
         return true;
     } else {
         if (mkdirsSync(path.dirname(dirname))) {
-            console.log("mkdirsSync = " + dirname);
+            // console.log("mkdirsSync = " + dirname);
             fs.mkdirSync(dirname);
             return true;
         }
@@ -52,11 +52,10 @@ function copyDir(src, dist) {
 }
 
 function createDocs(src, dist,callback) {
-    //   console.log("开始创建...")
     copyDir(src, process.cwd() + '/'+ dist);
-    console.log("创建完成")
-    console.log('\x1b[34m','cd '+dist)
-    console.log('\x1b[34m','npm install')
+    console.log("创建完成，执行以下指令")
+    console.log('\x1B[36m%s\x1B[0m', '$ cd '+dist)
+    console.log('\x1B[36m%s\x1B[0m', '$ npm install')
     if (callback) {
         callback();
     }

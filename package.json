@@ -1,7 +1,7 @@
 {
   "name": "isun",
-  "version": "0.0.0",
-  "description": "创建项目",
+  "version": "0.0.1",
+  "description": "快速创建vue项目",
   "main": "lib/main.js",
   "bin": {
     "is": "bin/is.js"
@@ -11,10 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yashell/isun.git"
+    "url": "fsfddfsfds"
   },
   "keywords": [
-    "isun"
+    "lonely_dance",
+    "is",
+    "isun",
+    "ys",
+    "yarg"
   ],
   "author": "ys",
   "license": "MIT",
